@@ -1,0 +1,186 @@
+/* global setting */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* global styling */
+html
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em; 
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+h1
+h2
+h3 {
+    padding-bottom: 20px;
+}
+p {
+    margin: 10px;
+}
+
+/* Navigation */
+#navbar {
+    background: #082032;
+    overflow: auto;
+    color: #fff;
+}
+#navbar a {
+    color: #fff;
+}
+/* removing the bullets in the list */
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+/* float list items in the left to have them horizontally align */
+#navbar ul li {
+    float: left;
+}
+/* convert anchor link to block elements to apply some padding */
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+}
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+/* Navigation using pseudo selector */
+#navbar ul li a:hover {
+    background: #334756;
+    color: #ff4c29;
+}
+
+#navbar ul li a.active {
+    background: rgba(255, 255, 255, 0.1);
+}
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+#hero {
+    background: url("../image/macaron_image.jpg") no-repeat center center/cover;
+    height: 600px;
+}
+#hero .hero-content {
+    color: #fff;
+    text-align: center;
+}
+#hero .hero-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+#hero .hero-content h1 {
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.2em;
+}
+.primary-text {
+    color: #f0f0cb;
+}
+
+#hero .hero-content p {
+    padding-bottom: 10px;
+    line-height: 1.7em;
+}
+
+.text-lead {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    background: #9797978c;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+}
+#about {
+    height: 400px;
+}
+#about p {
+    line-height: 2em;
+    font-size: 15px;
+}
+#about h2 {
+    color: #ffb740;
+}
+
+#about i {
+     margin-bottom: 10px;
+}
+#about .content-1,
+#about .content-2,
+#about .content-3 {
+    float: left;
+    width: 33%;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#about a.c-btn {
+    color: #082032;
+}
+
+#about a.c-btn:hover {
+    color: #ffb740;
+}
+
+#testimonials {
+    background: url(../image/pexels-karolina-grabowska-4041287.jpg) no-repeat center center/cover;
+    height: 600px;
+    overflow: hidden;
+}
+
+#testimonials .testimonial img {
+    height: 100px;
+    width: 90px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.row {
+    background: rgba(39, 62, 84, 0.4);
+    overflow: hidden;
+    height: 600px;
+    z-index: 2;
+}
+#testimonials .lead-head {
+    color: #fff;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.bg-primary {
+    background: rgba(255, 255, 255, 0.4);
+}
+#testimonials .testimonial {
+    padding: 20px;
+    width: 50%;
+    margin-bottom: 40px;
+    border-radius: 1.2em;
+}
+footer {
+    background: #082032;
+    height: 50px;
+    overflow: auto;
+}
+#footer {
+    color: #fff;
+    text-align: center;
+}
